@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662581858539",
+    "project_id": "all-coding-language-quiz",
+    "storage_bucket": "all-coding-language-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662581858539:android:a3105381400597d2b2aeae",
+        "android_client_info": {
+          "package_name": "com.example.allquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662581858539-fi87jurc9vhe31dreultb5ao7dki3f44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZyJKNTBcv6ZFxZkQyR05cOAAHNnRVpzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662581858539-fi87jurc9vhe31dreultb5ao7dki3f44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

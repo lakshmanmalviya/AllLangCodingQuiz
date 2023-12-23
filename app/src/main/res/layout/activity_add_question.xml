@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AddQuestion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/insertLangs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/text_bg"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Great you are adding new Question"
+                android:textAlignment="center"
+                android:textColor="#FFFDFD"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Write the whole Question"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#B1B0AF"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Write the content for option 1"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#B1B0AF"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Write the content for option 2"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#B1B0AF"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Write the content for option 3"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#B1B0AF"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/option4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Write the content for option 4"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#B1B0AF"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Write the answer or copy paste above option's content"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#B1B0AF"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/explaination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Write the Explaination of the Question"
+                android:inputType="textMultiLine|textPersonName"
+                android:padding="5dp"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#B1B0AF"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/insertQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/text_bg"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Insert"
+                android:textAlignment="center"
+                android:textColor="#FFFDFD"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
